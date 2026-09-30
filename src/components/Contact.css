@@ -1,0 +1,160 @@
+.contact {
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+.contact-box {
+    padding: 60px 40px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #6a4cff, #9b5cff);
+    color: white;
+}
+
+/* Heading */
+.contact-content {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.contact-content p {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.contact-content h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.contact-content span {
+    display: block;
+    font-size: 16px;
+}
+
+/* Form */
+.contact-form {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 13px 16px;
+    border-radius: 10px;
+    background: white;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #999;
+}
+
+.contact-form select {
+    color: #777;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Button */
+.contact-btn {
+    display: inline-block;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 5px;
+    border-radius: 30px;
+    background: white;
+    color: #6a4cff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact-btn i {
+    margin-left: 8px;
+    transition: margin-left 0.3s ease;
+}
+
+.contact-btn:hover {
+    transform: translateY(-2px);
+}
+
+.contact-btn:hover i {
+    margin-left: 13px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    .contact {
+        padding: 70px 0;
+    }
+
+    .contact-box {
+        padding: 50px 25px;
+        border-radius: 20px;
+    }
+
+    .contact-content h2 {
+        font-size: 32px;
+    }
+
+    .contact-content span {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+    .contact {
+        padding: 60px 0;
+    }
+
+    .contact-box {
+        padding: 40px 18px;
+    }
+
+    .contact-content {
+        margin-bottom: 25px;
+    }
+
+    .contact-content p {
+        font-size: 11px;
+    }
+
+    .contact-content h2 {
+        font-size: 27px;
+    }
+
+    .contact-content span {
+        font-size: 13px;
+    }
+
+    .contact-form input,
+    .contact-form select,
+    .contact-form textarea {
+        font-size: 13px;
+        padding: 12px 14px;
+    }
+
+    .contact-btn {
+        padding: 11px 22px;
+    }
+}

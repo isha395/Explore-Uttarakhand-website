@@ -1,0 +1,70 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 18px 0;
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-brand {
+  font-size: 23px;
+  color: #6f42c1 !important;
+  letter-spacing: -0.5px;
+}
+
+.navbar-nav {
+  gap: 8px;
+}
+
+.navbar-nav .nav-link {
+  color: #333 !important;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 13px !important;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 13px;
+  right: 13px;
+  bottom: 2px;
+  height: 2px;
+  background: #6f42c1;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #6f42c1 !important;
+}
+
+.navbar-nav .nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.navbar-toggler {
+  border: none;
+  box-shadow: none !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    padding-top: 15px;
+    gap: 2px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0 !important;
+  }
+
+  .navbar-nav .nav-link::after {
+    left: 0;
+    right: auto;
+    width: 30px;
+  }
+}

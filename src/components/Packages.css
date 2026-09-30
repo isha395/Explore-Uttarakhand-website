@@ -1,0 +1,145 @@
+.packages {
+  padding: 100px 0;
+  background: #f8f7fb;
+}
+
+/* Heading */
+.packages .section-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.packages .section-heading p {
+  color: #6f42c1;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.packages .section-heading h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.packages .section-heading span {
+  color: #777;
+  font-size: 16px;
+}
+
+/* Package Card */
+.package-card {
+  height: 100%;
+  padding: 30px 25px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 22px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package-card:hover {
+  transform: translateY(-8px);
+  border-color: #6f42c1;
+  box-shadow: 0 18px 40px rgba(111, 66, 193, 0.16);
+}
+
+/* Icon */
+.package-icon {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #6f42c1, #9b6de3);
+  color: white;
+  font-size: 24px;
+}
+
+/* Title */
+.package-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 18px;
+}
+
+/* Details */
+.package-duration,
+.package-location {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.package-duration i,
+.package-location i {
+  color: #6f42c1;
+  margin-right: 9px;
+}
+
+/* Bottom */
+.package-bottom {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #eeeeee;
+}
+
+.package-bottom small {
+  display: block;
+  color: #999;
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+.package-bottom strong {
+  display: block;
+  color: #6f42c1;
+  font-size: 20px;
+}
+
+/* Button */
+.package-btn {
+  border: none;
+  background: transparent;
+  color: #6f42c1;
+  font-weight: 600;
+  padding: 0;
+  cursor: pointer;
+  text-decoration:none;
+  display:inline-block;
+}
+
+.package-btn i {
+  margin-left: 6px;
+  transition: margin-left 0.3s ease;
+}
+
+.package-btn:hover i {
+  margin-left: 12px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  .packages {
+    padding: 70px 0;
+  }
+
+  .packages .section-heading h2 {
+    font-size: 34px;
+  }
+
+  .package-card {
+    padding: 25px 22px;
+  }
+
+}

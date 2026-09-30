@@ -1,0 +1,198 @@
+.experience-details {
+  min-height: 100vh;
+  padding: 100px 20px 60px;
+  background: #f8f5ff;
+}
+
+.experience-details-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.back-btn {
+  border: none;
+  background: #6f42c1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.back-btn:hover {
+  background: #59339d;
+}
+
+.experience-details-content {
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   DETAIL PAGE IMAGE
+   ========================= */
+
+.experience-details-content img {
+  width: 70%;
+  max-width: 700px;
+  height: 280px;
+  object-fit: cover;
+
+  display: block;
+  margin: 0 auto 30px;
+
+  border-radius: 15px;
+}
+
+
+/* =========================
+   ICON
+   ========================= */
+
+.experience-details-icon {
+  width: 65px;
+  height: 65px;
+
+  margin: 0 auto 20px;
+
+  background: #6f42c1;
+  color: white;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 28px;
+}
+
+
+/* =========================
+   HEADING
+   ========================= */
+
+.experience-details-content h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+
+/* =========================
+   DESCRIPTION
+   ========================= */
+
+.experience-details-description {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+
+/* =========================
+   TEXT
+   ========================= */
+
+.experience-details-text {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #666;
+  max-width: 750px;
+  margin: auto;
+}
+
+
+/* =========================
+   INFO
+   ========================= */
+
+.experience-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 35px;
+}
+
+.experience-info div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #6f42c1;
+}
+
+
+/* =========================
+   TABLET / MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+
+  .experience-details {
+    padding: 90px 15px 40px;
+  }
+
+  .experience-details-content {
+    padding: 30px 20px;
+  }
+
+  /* Detail Image */
+  .experience-details-content img {
+    width: 90%;
+    max-width: 550px;
+    height: 220px;
+  }
+
+  .experience-details-content h1 {
+    font-size: 32px;
+  }
+
+  .experience-info {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+}
+
+
+/* =========================
+   SMALL MOBILE
+   ========================= */
+
+@media (max-width: 576px) {
+
+  .experience-details {
+    padding: 80px 12px 30px;
+  }
+
+  .experience-details-content {
+    padding: 25px 15px;
+  }
+
+  .experience-details-content img {
+    width: 100%;
+    height: 190px;
+  }
+
+  .experience-details-icon {
+    width: 58px;
+    height: 58px;
+    font-size: 25px;
+  }
+
+  .experience-details-content h1 {
+    font-size: 28px;
+  }
+
+  .experience-details-description {
+    font-size: 17px;
+  }
+
+  .experience-details-text {
+    font-size: 15px;
+  }
+}

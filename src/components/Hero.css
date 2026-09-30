@@ -1,0 +1,113 @@
+.hero {
+  min-height: 90vh;
+  background-image: url("../assets/uttarakhand-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  max-width: 700px;
+  margin-left: 8%;
+  padding: 40px 20px;
+}
+
+.hero-subtitle {
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 70px;
+  line-height: 1.05;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 600px;
+  margin-bottom: 35px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.hero-buttons .btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+
+/* Tablet */
+@media (max-width: 991px) {
+
+  .hero-content {
+    margin-left: 3%;
+  }
+
+  .hero h1 {
+    font-size: 58px;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 576px) {
+
+  .hero {
+    min-height: 85vh;
+    background-position: center;
+  }
+
+  .hero-content {
+    margin-left: 0;
+    padding: 30px 20px;
+  }
+
+  .hero-subtitle {
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .hero-buttons .btn {
+    padding: 10px 22px;
+  }
+}
