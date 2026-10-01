@@ -1,6 +1,12 @@
 import { useState } from 'react';
 import './Experiences.css';
 import ExperienceDetails from './ExperienceDetails';
+import trekkingImage from '../assets/trekking.jpg';
+import campingImage from '../assets/camping.jpg';
+import raftingImage from '../assets/river-rafting.jpg';
+import yogaImage from '../assets/yoga.jpg';
+import spiritualImage from '../assets/spritual.jpg';
+import snowImage from '../assets/snow-advanture.jpg';
 
 function Experiences() {
 
@@ -8,42 +14,42 @@ function Experiences() {
     {
       icon: "bi-person-walking",
       title: "Trekking",
-      image: "/src/assets/trekking.jpg",
+      image: trekkingImage,
       description: "Walk through beautiful Himalayan trails and discover breathtaking views.",
       details: "Explore the stunning Himalayan trails of Uttarakhand with scenic mountain views, peaceful forests and unforgettable trekking experiences."
     },
     {
       icon: "bi-house",
       title: "Camping",
-      image: "/src/assets/camping.jpg",
+      image: campingImage,
       description: "Spend peaceful nights surrounded by mountains, forests and stars.",
       details: "Enjoy peaceful nights under the stars, surrounded by beautiful mountains and forests. Experience bonfires, nature walks and unforgettable Himalayan camping."
     },
     {
       icon: "bi-water",
       title: "River Rafting",
-      image: "/src/assets/river-rafting.jpg",
+      image: raftingImage,
       description: "Experience thrilling river adventures through the Himalayan waters.",
       details: "Feel the excitement of rafting through the Himalayan rivers. Rishikesh offers thrilling rapids, beautiful landscapes and an unforgettable adventure."
     },
     {
       icon: "bi-heart-pulse",
       title: "Yoga & Wellness",
-      image: "/src/assets/yoga.jpg",
+      image: yogaImage,
       description: "Relax your mind and body with yoga and wellness experiences.",
       details: "Refresh your mind and body with peaceful yoga sessions, meditation and wellness experiences surrounded by the natural beauty of Uttarakhand."
     },
     {
       icon: "bi-stars",
       title: "Spiritual Journey",
-      image: "/src/assets/spritual.jpg",
+      image: spiritualImage,
       description: "Explore sacred temples and peaceful spiritual destinations.",
       details: "Discover the spiritual side of Uttarakhand by visiting sacred temples, peaceful valleys and famous pilgrimage destinations such as Kedarnath and Badrinath."
     },
     {
       icon: "bi-snow",
       title: "Snow Adventure",
-      image: "/src/assets/snow-advanture.jpg",
+      image: snowImage,
       description: "Enjoy snow activities and winter adventures in the mountains.",
       details: "Experience the magic of winter in the Himalayas with snow-covered landscapes, skiing, snow activities and exciting mountain adventures in places like Auli."
     }
