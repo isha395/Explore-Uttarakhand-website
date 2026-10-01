@@ -1,34 +1,42 @@
 import './Gallery.css';
+
+import auliImage from '../assets/auli.jpg';
+import rishikeshImage from '../assets/rishikesh.jpg';
+import mussoorieImage from '../assets/mussoorie.jpg';
+import choptaImage from '../assets/chopta.jpg';
+import nanitalImage from '../assets/nanital.jpg';
+import valleyFlowersImage from '../assets/valley-of-flowers.jpg';
+
 function Gallery() {
 
   const galleryImages = [
     {
-      image: "/src/assets/auli.jpg",
+      image: auliImage,
       title: "Auli",
       category: "Adventure",
     },
     {
-      image: "/src/assets/rishikesh.jpg",
+      image: rishikeshImage,
       title: "Rishikesh",
       category: "River & Yoga",
     },
     {
-      image: "/src/assets/mussoorie.jpg",
+      image: mussoorieImage,
       title: "Mussoorie",
       category: "Hills",
     },
     {
-      image: "/src/assets/chopta.jpg",
+      image: choptaImage,
       title: "Chopta",
       category: "Trekking",
     },
     {
-      image: "/src/assets/nanital.jpg",
+      image: nanitalImage,
       title: "Nanital",
       category: "Lakes",
     },
     {
-      image: "/src/assets/valley-of-flowers.jpg",
+      image: valleyFlowersImage,
       title: "Valley of Flowers",
       category: "Nature",
     },
