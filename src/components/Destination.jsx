@@ -1,35 +1,43 @@
 import './Destination.css';
+import './Destination.css';
+
+import auliImage from '../assets/auli.jpg';
+import rishikeshImage from '../assets/rishikesh.jpg';
+import mussoorieImage from '../assets/mussoorie.jpg';
+import choptaImage from '../assets/chopta.jpg';
+import valleyFlowersImage from '../assets/valley-of-flowers.jpg';
+import nanitalImage from '../assets/nanital.jpg';
 function Destination() {
     const destinations = [
         {
             name: "Auli",
             category: "Snow • Advanture", 
-            image: "/src/assets/auli.jpg"
+            image: auliImage
         },
         { 
             name: "Rishikesh",
             category: "Advanture • Yoga",
-            image: "/src/assets/rishikesh.jpg"
+            image: rishikeshImage
         },
         {
             name: "Mussoorie",
             category: "Hills • Nature",
-            image: "/src/assets/mussoorie.jpg",
+            image: mussoorieImage
         },
         {
             name: "Chopta",
             category: "Trekking • Mountains",
-            image: "/src/assets/chopta.jpg",
+            image: choptaImage
         },
         {
             name: "valley of Flowers",
             category: "Trekking • Nature",
-            image :"/src/assets/valley-of-flowers.jpg"
+            image : valleyFlowersImage
         },
         { 
             name: "Nanital",
             category: "Lake • Nature",
-            image: "/src/assets/nanital.jpg"
+            image: nanitalImage
         }
     ];
     return (

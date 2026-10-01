@@ -1,5 +1,14 @@
 import "./PackageDetails.css";
 
+import mussoorieImage from "../assets/Mussoorie.jpg";
+import dehradunImage from "../assets/dehradun.jpg";
+import rishikeshImage from "../assets/rishikesh.jpg";
+import rishikesh2Image from "../assets/rishikesh2.jpg";
+import badrinathImage from "../assets/badrinath.jpg";
+import kedarnathImage from "../assets/kedarnath.jpg";
+import auliImage from "../assets/auli.jpg";
+import choptaImage from "../assets/chopta.jpg";
+
 function PackageDetails({ selectedPackage, onBack }) {
 
     const packages = {
@@ -7,8 +16,7 @@ function PackageDetails({ selectedPackage, onBack }) {
             location: "Mussoorie",
             duration: "3 Days / 2 Nights",
             price: "₹6,999",
-            images: ["/src/assets/Mussoorie.jpg",
-                "/src/assets/dehradun.jpg"],
+            images: [MussoorieImage,dehradunImage],
             description:
                 "Enjoy a peaceful getaway to the beautiful hills of Mussoorie, surrounded by scenic mountain views and refreshing nature.",
             highlights: [
@@ -28,8 +36,7 @@ function PackageDetails({ selectedPackage, onBack }) {
             location: "Rishikesh",
             duration: "4 Days / 3 Nights",
             price: "₹8,999",
-            images: ["/src/assets/rishikesh.jpg",
-                "/src/assets/rishikesh2.jpg"],
+            images: [rishikeshImage,rishikesh2Image],
             description:
                 "Experience the adventure and natural beauty of Rishikesh with exciting activities, riverside views and peaceful surroundings.",
             highlights: [
@@ -50,8 +57,7 @@ function PackageDetails({ selectedPackage, onBack }) {
             location: "Kedarnath • Badrinath",
             duration: "6 Days / 5 Nights",
             price: "₹14,999",
-            images: ["/src/assets/badrinath.jpg",
-                "/src/assets/kedarnath.jpg"],
+            images: [badrinathImage,kedarnathImage],
             description:
                 "Experience a peaceful spiritual journey through the sacred destinations of Kedarnath and Badrinath surrounded by the Himalayas.",
             highlights: [
@@ -74,10 +80,7 @@ function PackageDetails({ selectedPackage, onBack }) {
             location: "Auli • Chopta",
             duration: "5 Days / 4 Nights",
             price: "₹11,999",
-            images: [
-                "/src/assets/auli.jpg",
-                "/src/assets/chopta.jpg"
-            ],
+            images: [auliImage,choptaImage],
             description:
                 "Explore the breathtaking Himalayan landscapes of Auli and Chopta with scenic views, peaceful trails and unforgettable mountain experiences.",
             highlights: [
